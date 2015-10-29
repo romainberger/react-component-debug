@@ -1,4 +1,4 @@
-# React Portal Tooltip
+# React Component Debug
 
 ## Usage
 
