@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "author": "Romain Berger <romain@romainberger.com>",
   "scripts": {
-    "build": "BUILD=true webpack --progress --colors --display-error-details"
+    "build": "BUILD=true webpack -p --progress --colors --display-error-details"
   },
   "license": "MIT",
   "dependencies": {
