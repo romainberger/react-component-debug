@@ -26,8 +26,8 @@ export default class Debug extends Component {
 
     return (
       <div style={{background: '#333', paddingRight: 20, paddingBottom: 1}}>
-        {this.props.component.props && <JSONTree data={this.props.component.props} keyName="Props" theme={theme}/>}
-        {this.props.component.state && <JSONTree data={this.props.component.state} keyName="State" theme={theme}/>}
+        <JSONTree data={this.props.component.props} keyName="Props" theme={theme}/>
+        <JSONTree data={this.props.component.state} keyName="State" theme={theme}/>
       </div>
     )
   }
