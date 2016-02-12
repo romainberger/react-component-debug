@@ -26,11 +26,13 @@
   "author": "Romain Berger <romain@romainberger.com>",
   "license": "MIT",
   "dependencies": {
-    "react": "^0.13.3",
     "react-json-tree": "^0.2.0"
   },
   "devDependencies": {
     "babel": "^5.8.29",
     "mocha": "^2.3.3"
+  },
+  "peerDependencies": {
+    "react": "^0.14.7"
   }
 }
