@@ -4,7 +4,7 @@ Simple component to debug a component.
 
 ## Installation
 
-  $ npm install react-component-debug
+    npm install  react-component-debug
 
 ## Usage
 
